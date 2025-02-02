@@ -49,7 +49,7 @@ export const CardListProvider = ({ children }) => {
             list: doneList,
             setter: setDoneList,
         },
-    }), [todoList, progressList, doneList])
+    }), [todoList, progressList, doneList, setTodoList, setProgressList, setDoneList])
 
     const initCard = useCallback((index) => {
         const { list, setter } = mappingList[index]
