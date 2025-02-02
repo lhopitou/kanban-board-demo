@@ -1,0 +1,21 @@
+.column-container {
+    background-color: var(--mantine-color-blue-light);
+    border-radius: var(--mantine-radius-lg);
+    width: 100%;
+}
+
+.column-title {
+    padding: 1rem;
+}
+
+.card-list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    overflow-y: auto;
+    max-height: calc(100vh - 200px);
+}
+
+.btn-add-card {
+    cursor: pointer;
+}

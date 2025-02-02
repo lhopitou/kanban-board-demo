@@ -1,0 +1,12 @@
+.options-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn-options {
+    opacity: 0.5;
+}
+
+.item-card {
+    min-height: 100px;
+}
